@@ -1,0 +1,20 @@
+# File: requirements.txt
+# File Created: Friday, 27th September 2019 10:25:08 am
+# Author: Steven Atkinson (212726320@ge.com)
+
+name: bebo
+channels: 
+  - pytorch
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python>=3.5
+  - pytorch
+  - scikit-learn
+  - tqdm
+  - xlrd>=1
+  - pip:
+    - git+https://github.com/cics-nd/gptorch.git@master#egg=gptorch
+    - pyro-ppl>=0.5
